@@ -1,38 +1,16 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "nodereact",
+  "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-avatar": "^5.0.3",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "react-simple-wysiwyg": "^2.1.4",
-    "react-use-websocket": "^4.2.0",
-    "reactstrap": "^9.1.5"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "set PORT=3600 && react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node index.js"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Avanthika",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.0",
+    "ws": "^8.11.0"
   }
 }
